@@ -7,7 +7,7 @@
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        class="w-3 h-3 pt-1 text-white font-bold"
+        class="w-3 h-3 pt-1 text-white md:text-gray-700 font-bold"
       >
         <path
           stroke-linecap="round"
@@ -15,7 +15,9 @@
           d="M15.75 19.5 8.25 12l7.5-7.5"
         />
       </svg>
-      <RouterLink class="text-white font-bold md:mx-4 md:my-0 my-6" to="/"
+      <RouterLink
+        class="text-white md:text-gray-600 font-bold md:mx-4 md:my-0 my-6"
+        to="/"
         >Home</RouterLink
       >
     </div>

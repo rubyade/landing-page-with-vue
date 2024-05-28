@@ -9,7 +9,7 @@
       Discover restaurants and more near you
     </h2>
     <input
-      class="placeholder-shown:border-gray-500 mt-8 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+      class="placeholder-shown:border-gray-500 mt-8 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 md:w-96"
       type="text"
       v-model="delivery"
       placeholder="Enter delivery address"
@@ -18,7 +18,7 @@
       <p>{{ error }}</p>
     </div>
     <div v-if="quotes.length">
-      <p class="pt-9 italic text-center text-gray-800 text-sm">
+      <p class="pt-9 italic text-center text-gray-800 text-xs lg:text-sm">
         {{ quotes }}
       </p>
     </div>

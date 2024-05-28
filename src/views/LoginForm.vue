@@ -1,5 +1,5 @@
 <template>
-  <div class="form-container bg-gradient-to-r from-red-300 to-gray-500">
+  <div class="form-container bg-gradient-to-r from-red-300 to-gray-500 h-full">
     <div class="px-7 font-light text-xs pt-9 inline-flex items-baseline">
       <svg
         xmlns="http://www.w3.org/2000/svg"
