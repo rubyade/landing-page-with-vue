@@ -6,7 +6,7 @@
     >
       <img :src="logo" alt="logo" class="max-w-28" />
       <div
-        class="navlink flex flex-col justify-between md:flex-row md:gap-9 gap-10 md:items-center md:px-0 px-10 pb-9 md:pb-0 md:static absolute bg-red-300 md:w-auto w-full duration-700 ease-in text-white top-44 text-xl font-bold"
+        class="navlink flex flex-col justify-between md:flex-row md:gap-9 gap-10 md:items-center md:px-0 px-10 pb-9 md:pb-0 md:pl-44 lg:pl-96 xl:pl-[720px] md:static absolute bg-red-300 md:w-auto w-full duration-300 ease-in text-white top-44 text-xl font-bold"
         :class="[open ? 'left-0' : 'left-[-100%]']"
       >
         <RouterLink to="/">Home</RouterLink>
